@@ -1,0 +1,41 @@
+{
+	"name": "kwenta-sdk",
+	"version": "0.0.1",
+	"description": "SDK for interacting with Kwenta contracts and utilities",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -b"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@eth-optimism/contracts": "^0.5.40",
+		"@ethersproject/abstract-signer": "^5.7.0",
+		"@ethersproject/bignumber": "^5.7.0",
+		"@ethersproject/bytes": "^5.7.0",
+		"@ethersproject/constants": "^5.7.0",
+		"@ethersproject/contracts": "^5.7.0",
+		"@ethersproject/providers": "^5.7.2",
+		"@ethersproject/strings": "^5.7.0",
+		"@ethersproject/transactions": "^5.7.0",
+		"@ethersproject/wallet": "^5.7.0",
+		"@pythnetwork/pyth-evm-js": "^1.16.1",
+		"@synthetixio/wei": "^2.74.4",
+		"axios": "^1.4.0",
+		"bn.js": "^5.2.1",
+		"codegen-graph-ts": "^0.1.4",
+		"date-fns": "^2.30.0",
+		"ethcall": "^6.0.0",
+		"ethers": "^5.7.2",
+		"graphql-request": "^6.0.0",
+		"moment": "^2.29.4"
+	},
+	"devDependencies": {
+		"@types/bn.js": "^5.1.1",
+		"@types/lodash": "^4.14.194",
+		"lodash": "^4.17.21",
+		"typescript": "^5.0.4"
+	}
+}
